@@ -1,0 +1,111 @@
+.boxText{   
+	margin-right:41%;
+}
+.text{
+    width:100%;
+    text-align:center;
+    font-weight:bold;
+}
+.textMiddleRectagl{
+    padding-top:15px;
+}
+.middleRectagl{
+    width: 150px;
+    height: 50px;
+    background: #00FF00;
+    border-radius:5%;
+	margin-left:22%;
+}
+.picture{
+	background-image:url('../img/0.png');
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+}	
+
+.settings{
+	margin-top: 1%;
+	display: flex;
+	margin-left: 20%;
+	margin-right: 50%;
+}
+.box{
+    margin-left:5%;
+    margin-right:5%;
+}
+.container{
+    margin-left:27%;
+}
+
+
+
+
+
+@media screen and (max-width: 1400px){
+.boxText{   
+	margin-right:34%;
+}
+}   
+
+@media screen and (max-width: 900px){
+.boxText{   
+	margin-right:40%;
+}
+.middleRectagl{
+	margin-left:14%;
+}
+.picture{
+    height: 50px;
+    width: 50px;
+}	
+.settings{
+	margin-left: 10%;
+	margin-right: 40%;
+}
+}
+
+
+@media screen and (max-width: 600px){
+.boxText{   
+	margin-right:32%;
+}
+.middleRectagl{
+	margin-left:6%;
+}
+.picture{
+	height: 50px;
+	width: 50px;
+}	
+.settings{
+	margin-top: 3%;
+	margin-left: 0%;
+	margin-right: 30%;
+}
+
+@media screen and (max-width: 500px){
+	.boxText{   
+		margin-right:35%;
+	}
+	.middleRectagl{
+		margin-left:1%;
+	}
+	.picture{
+		height: 45px;
+		width: 45px;
+	}	
+}
+
+@media screen and (max-width: 500px){
+	.boxText{   
+		margin-right:35%;
+	}
+	.middleRectagl{
+		margin-left: 0%;
+	}
+	.picture{
+		height: 38px;
+		width: 38px;
+	}	
+}
+
+}
